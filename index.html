@@ -1,253 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=2" />
-  <title>Zihang Huang — Ph.D. Candidate & Perception/AD Researcher</title>
-  <meta name="description" content="Zihang Huang — Ph.D. candidate and Perception Fusion Discipline Manager at Desay SV Automotive. Research: autonomous driving, computer vision, depth, sensor fusion." />
-  <meta property="og:title" content="Zihang Huang — Ph.D. Candidate & Perception/AD Researcher" />
-  <meta property="og:description" content="Autonomous driving • Computer vision • Depth estimation • Sensor fusion" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://avatars.githubusercontent.com/u/0?v=4" />
-  <meta name="theme-color" content="#00D1FF" />
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  
-    <style>
-    :root{--bg:#f7fbff;--card:#ffffff;--ink:#0e1726;--muted:#415a77;--accent:#00d1ff;--accent-2:#7c4dff;--ring:rgba(0,209,255,0.25);--shadow:0 10px 30px rgba(0,0,0,.08);--radius:18px}
-    *{box-sizing:border-box}html,body{margin:0;height:100%}
-    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:radial-gradient(1200px 800px at 90% -10%,rgba(0,209,255,.12),transparent 60%),radial-gradient(800px 600px at -10% 20%,rgba(124,77,255,.10),transparent 55%),var(--bg);line-height:1.6;letter-spacing:.2px}
-    a{color:var(--ink);text-decoration:none}a.link{color:var(--accent)}a.link:hover{opacity:.9;text-decoration:underline}
-    .wrap{max-width:1120px;margin:0 auto;padding:32px 20px 60px}
-    header{position:sticky;top:0;z-index:5;background:rgba(247,251,255,.7);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid rgba(0,0,0,.06)}
-    .nav{display:flex;align-items:center;justify-content:space-between;gap:14px;max-width:1120px;margin:0 auto;padding:12px 20px}
-    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.4px}
-    .brand .dot{width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 0 20px rgba(0,209,255,.7)}
-    .nav a{padding:8px 12px;border-radius:999px}.nav a:hover{background:rgba(0,209,255,.12)}
-    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:stretch;padding:36px 0 10px}
-    .card{background:var(--card);border:1px solid rgba(14,23,38,.06);border-radius:var(--radius);box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:center;height:100%}
-    .hero > .card, .hero > .pfp.card{height:100%}
-    .hero .card{padding:26px}
-    h1{margin:0 0 8px;font-size:clamp(28px,3.4vw,44px);line-height:1.1;letter-spacing:.2px}
-    .subtitle{font-size:clamp(14px,1.4vw,18px);color:var(--muted);margin-bottom:14px}
-    .badges{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 8px}
-    .badge{font-family:"JetBrains Mono",monospace;font-weight:600;font-size:12px;padding:8px 10px;border-radius:999px;border:1px solid rgba(0,0,0,.08);background:linear-gradient(180deg,#fff,#f6fbff);box-shadow:inset 0 0 0 2px var(--ring)}
-    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;font-weight:600;border:1px solid rgba(0,0,0,.1);background:#fff;box-shadow:var(--shadow)}
-    .btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;border:none}.btn:hover{transform:translateY(-1px)}
-    .pfp{aspect-ratio:1/1;border-radius:20px;overflow:hidden;background:#fff;border:1px solid rgba(0,0,0,.1);display:flex;align-items:center;justify-content:center;height:100%}
-    .pfp img{width:100%;height:auto;max-width:300px;display:block;margin:auto;object-fit:cover}
-    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}.col-12{grid-column:span 12}.col-6{grid-column:span 6}
-    .section{margin-top:26px}.section h2{font-size:clamp(20px,2.2vw,28px);margin:0 0 12px}
-    .item{padding:18px;border:1px solid rgba(14,23,38,.06);border-radius:16px;background:#fff}
-    .kpi{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.kpi span{font-family:"JetBrains Mono",monospace;font-size:12px;border-radius:999px;background:rgba(0,209,255,.08);padding:6px 8px;border:1px solid rgba(0,209,255,.35)}
-    .meta{color:var(--muted);font-size:14px}.list{display:flex;flex-direction:column;gap:10px}
-    .footer{margin:40px 0 10px;color:var(--muted);font-size:14px;text-align:center}
-    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(0,0,0,.04);font-size:13px}.anchor{scroll-margin-top:90px}
-    @media (max-width:880px){.hero{grid-template-columns:1fr}.col-6{grid-column:span 12}}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zihang Huang — Computer Vision &amp; 3D Perception</title>
+  <meta name="description" content="Zihang Huang, PhD Candidate at South China University of Technology. Research and engineering in 3D perception, autonomous driving, sensor fusion and multimodal AI. Open to research and project-based collaboration.">
+  <meta property="og:title" content="Zihang Huang — Homepage">
+  <meta property="og:description" content="Computer vision, 3D perception and multimodal AI. Research, industry experience and project collaboration.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zihanghuang66.github.io/">
+  <meta property="og:image" content="https://zihanghuang66.github.io/profile.jpg">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://zihanghuang66.github.io/">
+  <link rel="icon" href="./profile.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="./assets/site.css">
 </head>
-<body>
-  <header>
-    <nav class="nav">
-      <div class="brand"><span class="dot"></span> <span>Huang Zihang</span></div>
-      <div class="links">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="home" href="#top">Homepage</a>
+      <div class="nav-links">
+        <a href="#about">About Me</a>
         <a href="#publications">Publications</a>
-        <a href="#patents">Patents</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+        <a href="#collaboration">Collaboration</a>
       </div>
     </nav>
   </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <div class="card">
-        <h1>Hunag Zihang</h1>
-        <div class="subtitle">Ph.D. Candidate @ South China University of Technology · Perception Fusion Discipline Manager @ Desay SV Automotive (Singapore)</div>
-        <div class="badges">
-          <span class="badge">Autonomous Driving</span>
-          <span class="badge">3D Perception</span>
-          <span class="badge">Depth Estimation</span>
-          <span class="badge">Sensor Fusion</span>
-          <span class="badge">Embodied Robotics</span>
-        </div>
-        <div class="cta-row">
-          <a class="btn primary" href="#contact">Get in touch</a>
-          <a class="btn" href="#publications">View publications</a>
-          <a class="btn" href="./HuangZihangCV_EN_20250625.pdf" download>Download CV</a>
-          <a class="btn" href="https://www.linkedin.com/in/zihang-huang-668030139" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </div>
-      <div class="pfp card">
-        <div>
-          <img src="./profile.jpg" alt="Profile Photo">
-        </div>
-      </div>
-    </section>
+  <div class="page">
+    <aside class="profile" aria-label="Profile and contact links">
+      <div class="portrait-frame"><img class="portrait" src="./profile.jpg" alt="Zihang Huang" width="174" height="174"></div>
+      <h1>Zihang Huang</h1>
+      <p class="role">PhD Candidate</p>
+      <p class="affiliation">South China University<br>of Technology</p>
+      <ul class="profile-links">
+        <li><span class="icon" aria-hidden="true">⌘</span><a href="https://github.com/zihanghuang66">GitHub</a></li>
+        <li><span class="icon" aria-hidden="true">in</span><a href="https://www.linkedin.com/in/zihang-huang-668030139/">LinkedIn</a></li>
+        <li><span class="icon" aria-hidden="true">✉</span><a href="mailto:derekwong166@gmail.com">Email</a></li>
+        <li><span class="icon" aria-hidden="true">▤</span><a href="./CV_Huang_Zihang_EN_20260615.pdf">CV · June 2026</a></li>
+      </ul>
+      <p class="sidebar-note">Computer vision · 3D perception<br>Autonomous systems · Multimodal AI</p>
+    </aside>
 
-    <section id="about" class="section anchor">
-      <div class="grid">
-        <div class="col-12">
-          <div class="item">
-            <h2>About</h2>
-            <p>My research focuses on computer vision and deep learning, with a passion for developing production-grade perception and fusion systems for intelligent vehicles and robots, aiming to apply technology to enhance quality of life.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <main id="main">
+      <section id="about" class="about" aria-label="About me">
+        <p>I am a <strong>PhD Candidate</strong> at <a href="https://www.scut.edu.cn/en/">South China University of Technology</a>, supervised by <strong>Prof. C. L. Philip Chen</strong>. I received my master's degree in <strong>Electrical and Computer Engineering</strong> from the <strong>University of Pittsburgh</strong> in 2018, supervised by <a href="https://www.engineering.pitt.edu/people/faculty/zhi-hong-mao/"><strong>Prof. Zhi-Hong Mao</strong></a>. My work connects computer vision research with perception systems for intelligent vehicles and robots.</p>
+        <p>I have over eight years of experience in autonomous driving and AI engineering. Previously, I worked at <strong>Desay SV Automotive Singapore</strong> as a Principal Software Engineer / Discipline Manager, leading perception development across L2+ production programs and an L4 logistics vehicle platform. I later worked at <strong>Anker Technology Singapore</strong> on LLM/VLM-based multimodal diagnosis for robotic products.</p>
+        <p class="interests">My research interests include <strong><em>3D Perception, BEV Representation, Multi-sensor Fusion, Depth Estimation, and Multimodal AI.</em></strong></p>
+        <p class="availability">✉ Open to research collaboration and project-based computer vision work. <a href="#collaboration">Let's connect.</a></p>
+        <p>I collaborate with research and engineering teams on algorithm development, reproducible evaluation, and deployment-oriented prototypes.</p>
+      </section>
 
-    <section id="experience" class="section anchor">
-      <h2>Experience</h2>
-      <div class="grid">
-        <div class="col-12 item">
-          <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap">
-            <strong>Desay SV Automotive, Singapore</strong>
-            <span class="meta">Apr 2022 — Present · Principal Software Engineer / Discipline Manager</span>
-          </div>
-          <ul>
-            <li>Initiated & led L4 unmanned logistics robot platform; first prototype launched Mar 2025.</li>
-            <li>Managed ~40 engineers across CN/SG; delivered two L2+ perception systems (eπ007/eπ008) launched Jun 2024.</li>
-            <li>Designed lidar-based <em>4D Scenario Reconstruction</em> autolabeling system for lanes/markers.</li>
-            <li>Built scalable MOD autolabeling pipeline (98.5% recall; 6 cm position / 4 cm scale error; 192K frames/day).</li>
-          </ul>
-        </div>
+      <section id="news">
+        <h2><span class="section-symbol" aria-hidden="true">🔥</span>News &amp; Milestones</h2>
+        <ul class="news">
+          <li><time datetime="2025-03">2025.03:</time> Delivered the first prototype of the L4 unmanned logistics vehicle perception platform at Desay SV.</li>
+          <li><time datetime="2024-06">2024.06:</time> Led perception delivery for the Dongfeng eπ007/eπ008 L2+ production programs at Desay SV.</li>
+          <li><time datetime="2021-05">2021.05:</time> Contributed to the Desay SV team's <a href="https://www.desaysv.com/newsDetails/291.html">Silver Award in the Intelligent Driving Extreme Challenge</a> at the 2021 World Intelligent Driving Challenge (WIDC).</li>
+          <li><time datetime="2019-11">2019.11:</time> Contributed to perception development and validation for Desay SV Singapore's <a href="https://vietnamnews.vn/media-outreach/571348/a-good-start-to-2020-desay-sv-singapore-received-the-vehicle-safety-assessment-milestone-1-approval-to-test-autonomous-vehicles-in-singapore.html">Milestone 1 (M1) autonomous vehicle road-test approval</a>.</li>
+        </ul>
+      </section>
 
-        <div class="col-12 item">
-          <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap">
-            <strong>Desay SV Automotive, Singapore</strong>
-            <span class="meta">Apr 2020 — Mar 2022 · Senior Software Engineer / Group Lead</span>
-          </div>
-          <ul>
-            <li>Led 7 perception engineers across detection, lanes, lidar, and fusion.</li>
-            <li>Delivered a full-stack autonomous driving prototype; team won Silver Medal (6/143) at 2021 WIDC.</li>
-            <li>Deployed lightweight 3D detection on IPU03.</li>
-          </ul>
-        </div>
+      <section id="publications">
+        <h2><span class="section-symbol" aria-hidden="true">📝</span>Selected Publications</h2>
+        <article class="publication">
+          <p class="publication-title"><span class="venue">ITSC 2024</span><a href="https://arxiv.org/abs/2410.06516">QuadBEV: An Efficient Quadruple-Task Perception Framework via Bird's-Eye-View Representation</a></p>
+          <p class="authors">Yuxin Li, Yiheng Li, Xulei Yang, Mengying Yu, <strong>Zihang Huang</strong>, Xiaojun Wu, Chai Kiat Yeo.</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2410.06516">[arXiv]</a> <a href="https://arxiv.org/pdf/2410.06516">[PDF]</a></p>
+        </article>
+        <article class="publication">
+          <p class="publication-title"><span class="venue">arXiv 2024</span><a href="https://arxiv.org/abs/2410.07268">Learning Content-Aware Multi-Modal Joint Input Pruning via Bird's-Eye-View Representation</a></p>
+          <p class="authors">Yuxin Li, Yiheng Li, Xulei Yang, Mengying Yu, <strong>Zihang Huang</strong>, Xiaojun Wu, Chai Kiat Yeo.</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2410.07268">[arXiv]</a> <a href="https://arxiv.org/pdf/2410.07268">[PDF]</a></p>
+        </article>
+        <article class="publication">
+          <p class="publication-title"><span class="venue">ITSC 2023</span><a href="https://arxiv.org/abs/2312.00633">Towards Efficient 3D Object Detection in Bird's-Eye-View Space for Autonomous Driving: A Convolutional-Only Approach</a></p>
+          <p class="authors">Yuxin Li, Qiang Han, Mengying Yu, Yuxin Jiang, Chai Kiat Yeo, Yiheng Li, <strong>Zihang Huang</strong>, Nini Liu, Hsuanhan Chen, Xiaojun Wu.</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2312.00633">[arXiv]</a> <a href="https://arxiv.org/pdf/2312.00633">[PDF]</a></p>
+        </article>
+        <article class="publication">
+          <p class="publication-title"><span class="venue">HRI 2018 Companion</span><a href="https://doi.org/10.1145/3173386.3177836">EXGbuds: Universal Wearable Assistive Device for Disabled People to Interact with the Environment Seamlessly</a></p>
+          <p class="authors">K.-J. Wang, H.-W. Tung, <strong>Z. Huang</strong>, P. Thakur, Z.-H. Mao, M.-X. You.</p>
+          <p class="paper-links"><a href="https://doi.org/10.1145/3173386.3177836">[DOI]</a></p>
+        </article>
+      </section>
 
-        <div class="col-12 item">
-          <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap">
-            <strong>Desay SV Automotive, Singapore</strong>
-            <span class="meta">Aug 2018 — Mar 2020 · Software Engineer (Computer Vision)</span>
-          </div>
-          <ul>
-            <li>One-stage VRU detection on IPU03: 95% mAP, 120 m @ 83.3 FPS.</li>
-            <li>Contributed to securing Singapore LTA autonomous driving road test license.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="publications" class="section anchor">
-      <h2>Selected Publications</h2>
-      <div class="list">
-        <div class="item">
-          <div><strong>QuadBEV</strong>: An Efficient Quadruple-Task Perception Framework via BEV Representation. ITSC 2024.</div>
-          <div class="meta"><a class="link" href="https://doi.org/10.48550/arXiv.2410.06516">DOI / arXiv</a></div>
-        </div>
-        <div class="item">
-          <div><strong>Towards Efficient 3D Object Detection in Bird's-Eye-Space</strong>. ITSC 2023.</div>
-          <div class="meta"><a class="link" href="https://doi.org/10.48550/arXiv.2312.00633">DOI / arXiv</a></div>
-        </div>
-        <div class="item">
-          <div><strong>Learning Content-Aware Multi-Modal Joint Input Pruning via BEV</strong>. arXiv 2024.</div>
-          <div class="meta"><a class="link" href="https://doi.org/10.48550/arXiv.2410.07268">arXiv</a></div>
-        </div>
-        <div class="item">
-          <div>EXGbuds: Universal Wearable Assistive Device for Disabled People. HRI'18 Companion.</div>
-          <div class="meta"><a class="link" href="https://doi.org/10.1145/3173386.3177836">DOI</a></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="patents" class="section anchor">
-      <h2>Patents</h2>
-      <div class="list">
-        <div class="item">Category Determination Method, Apparatus, Device and Storage Medium. CN115774844A. Published Mar 10, 2023.</div>
-        <div class="item">3D Object Detection Method Based on Monocular Camera. PCT/CN2021/102534; CN112883790A. Published Jun 1, 2021.</div>
-        <div class="item">Traffic Signal Light Detection Method... CN117456509A. Published Jan 26, 2024.</div>
-        <div class="item">Lane Line Tracking Method... CN117475394A. Published Jan 30, 2024.</div>
-        <div class="item">Perception Fusion System, Electronic Device and Storage Medium. CN116664997A. Published Aug 29, 2023.</div>
-        <div class="item">Object Detection Method... CN115761698A. Published Mar 7, 2023.</div>
-        <div class="item">Vehicle Driving Control Method, System and Storage Medium. CN116215526A. Published Jun 6, 2023.</div>
-        <div class="item">Automatic Calibration Method, System and Computer-Readable Storage Medium. CN118376986A. Published Jul 23, 2024.</div>
-      </div>
-    </section>
-
-    <section id="education" class="section anchor">
-      <h2>Education</h2>
-      <div class="grid">
-        <div class="col-12 item">
-          <strong>South China University of Technology</strong> — Ph.D. (Electronic Information), ongoing. Advisor: Prof. C.L. Philip Chen.
-        </div>
-        <div class="col-12 item">
-          <strong>University of Pittsburgh</strong> — M.S. Electrical & Computer Engineering (GPA 3.9/4.0).
-        </div>
-        <div class="col-12 item">
-          <strong>Guangzhou University</strong> — B.S. Electrical Engineering (GPA 3.4/5.0).
-        </div>
-      </div>
-    </section>
-
-    <section class="section anchor" id="skills">
-      <h2>Skills</h2>
-      <div class="item">
-        <div class="badges">
-          <span class="badge">Python</span>
-          <span class="badge">C++</span>
-          <span class="badge">PyTorch</span>
-          <span class="badge">TensorFlow</span>
-          <span class="badge">TensorRT</span>
-          <span class="badge">CUDA</span>
-          <span class="badge">ROS</span>
-        </div>
-        <div class="pill">Fluent in English & Mandarin</div>
-      </div>
-    </section>
-
-    <section class="section anchor" id="press">
-      <h2>Press & Highlights</h2>
-      <div class="list">
-        <div class="item">Desay SV prototype won Silver Medal at 2021 WIDC — <a class="link" href="https://en.desaysv.com/index.php?id=5152">Press link</a></div>
-        <div class="item">Singapore LTA autonomous driving road test license — <a class="link" href="https://sg.news.yahoo.com/good-start-2020-desay-sv-020000611.html">News</a></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section anchor">
-      <h2>Contact</h2>
-      <div class="grid">
-        <div class="col-6 item">
-          <div><strong>Email</strong></div>
-          <div><a class="link" href="mailto:derekwong166@gmail.com">derekwong166@gmail.com</a></div>
-        </div>
-        <div class="col-6 item">
-          <div><strong>Phone</strong></div>
-          <div><a class="link" href="tel:+6584265804">(+65) 8426 5804</a></div>
-        </div>
-        <div class="col-12 item">
-          <div><strong>Research Interests</strong></div>
-          <div>Autonomous Driving · Computer Vision · Deep Learning · Object Detection · Depth Estimation · Sensor Fusion</div>
-        </div>
-      </div>
-    </section>
-
-    <p class="footer">© <span id="y"></span> Zihang Huang · Built for GitHub Pages · Bright cyber-tech theme</p>
-  </main>
-
-  <script>
-    // year stamp
-    document.getElementById('y').textContent = new Date().getFullYear();
-    // smooth anchor scroll
-    document.querySelectorAll('a[href^="#"]').forEach(a=>{
-      a.addEventListener('click', e=>{
-        const id=a.getAttribute('href');
-        if(id.length>1){e.preventDefault();document.querySelector(id).scrollIntoView({behavior:'smooth'})}
-      })
-    })
-  </script>
+      <section id="collaboration">
+        <h2><span class="section-symbol" aria-hidden="true">🤝</span>Research &amp; Project Collaboration</h2>
+        <p class="collaboration-intro">Open to remote, project-based collaboration with research groups and engineering teams.</p>
+        <ul class="collaboration-list"><li><strong>Computer vision &amp; 3D perception:</strong> object detection, depth estimation, point-cloud processing, registration and sensor-fusion prototypes.</li><li><strong>Multimodal AI:</strong> VLM application prototyping and evaluation using images, logs and other task-specific inputs.</li><li><strong>Research engineering:</strong> baseline reproduction, method comparisons, evaluation pipelines and failure analysis.</li><li><strong>Deployment:</strong> model integration and inference optimization for the agreed hardware and runtime.</li></ul>
+        <p>We can start with a clearly scoped feasibility study or an algorithm module. Deliverables may include runnable code, environment instructions, experiment records and an evaluation report, agreed before the work begins.</p>
+        <p>To discuss a project, please share the problem, available data, expected deliverables and timeline.</p>
+        <p class="contact-line" id="contact"><a href="mailto:derekwong166@gmail.com?subject=Research%20or%20project%20collaboration">derekwong166@gmail.com</a><a href="https://www.linkedin.com/in/zihang-huang-668030139/">LinkedIn</a></p>
+      </section>
+      <footer>© 2026 Zihang Huang</footer>
+    </main>
+  </div>
 </body>
 </html>
