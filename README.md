@@ -47,3 +47,5 @@ News additions requested on 2026-10-14:
 Latest owner edits: changed the introduction to “over eight years”; removed the Industry Experience, Education, Patents & Applications, Selected Project and Technical Skills sections and their navigation links; placed publication brackets inside each link and spacing only between links.
 
 GitHub username and website repository renamed on 2026-10-14 to `zihanghuang66` and `zihanghuang66.github.io`. Target site: https://zihanghuang66.github.io/ . Profile and canonical links use the new address.
+
+Input-pruning paper venue corrected to ITSC 2024, confirmed by the official conference program (https://its.papercept.net/conferences/scripts/abstract.pl?ConfID=87&Number=248). The title and IEEE link point to the owner-supplied publication page (https://ieeexplore.ieee.org/abstract/document/10920182/); arXiv and open PDF remain available.
