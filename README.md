@@ -16,7 +16,7 @@ Open http://127.0.0.1:8765/. Stop with Ctrl-C.
 
 - `index.html`: profile, News & Milestones, publications and collaboration/contact section.
 - `assets/site.css`: desktop sidebar, top navigation, mobile layout and accessibility styles.
-- `profile.jpg`: user-supplied IMG_2285.HEIC, converted to JPEG for browser compatibility; the circular upper-body framing is applied with CSS.
+- `profile.jpg` and `assets/profile-5d1a64cf831a.jpg`: user-supplied IMG_2285.HEIC, converted to JPEG for browser compatibility; the circular upper-body framing is applied with CSS.
 - `CV_Huang_Zihang_EN_20260615.pdf`: supplied June 2026 CV, linked with its date.
 - `HuangZihangCV_EN_20250625.pdf`: previous CV kept so existing incoming links continue to work.
 - `assets/registration-comparison.png`: retained public-data demo asset; not currently displayed on the page.
@@ -49,3 +49,5 @@ Latest owner edits: changed the introduction to “over eight years”; removed 
 GitHub username and website repository renamed on 2026-10-14 to `zihanghuang66` and `zihanghuang66.github.io`. Target site: https://zihanghuang66.github.io/ . Profile and canonical links use the new address.
 
 Input-pruning paper venue corrected to ITSC 2024, confirmed by the official conference program (https://its.papercept.net/conferences/scripts/abstract.pl?ConfID=87&Number=248). The title and IEEE link point to the owner-supplied publication page (https://ieeexplore.ieee.org/abstract/document/10920182/); arXiv and open PDF remain available.
+
+The displayed portrait, favicon and social image use a content-hashed filename so browsers do not reuse a cached older `profile.jpg`. The original filename is retained for existing external links.
