@@ -14,7 +14,7 @@ Open http://127.0.0.1:8765/. Stop with Ctrl-C.
 
 ## Editing
 
-- `index.html`: profile, News & Milestones, publications and collaboration/contact section.
+- `index.html`: profile, News & Milestones, publications, patents and collaboration/contact section.
 - `assets/site.css`: desktop sidebar, top navigation, mobile layout and accessibility styles.
 - `profile.jpg` and `assets/profile-5d1a64cf831a.jpg`: user-supplied IMG_2285.HEIC, converted to JPEG for browser compatibility; the circular upper-body framing is applied with CSS.
 - `CV_Huang_Zihang_EN_20260615.pdf`: supplied June 2026 CV, linked with its date.
@@ -51,3 +51,9 @@ GitHub username and website repository renamed on 2026-10-14 to `zihanghuang66` 
 Input-pruning paper venue corrected to ITSC 2024, confirmed by the official conference program (https://its.papercept.net/conferences/scripts/abstract.pl?ConfID=87&Number=248). The title and IEEE link point to the owner-supplied publication page (https://ieeexplore.ieee.org/abstract/document/10920182/); arXiv and open PDF remain available.
 
 The displayed portrait, favicon and social image use a content-hashed filename so browsers do not reuse a cached older `profile.jpg`. The original filename is retained for existing external links.
+
+Patents section restored on request: eight publications from the supplied CV, with Google Patents links. All eight linked records list 黄梓航 among the inventors. Titles use the English wording in the CV. A-publication numbers and publication dates are shown, not claims that every application is granted. CN115774844B is separately linked as a grant publication dated 2026-02-17; no claim of current legal enforceability is made.
+
+Additional application from the owner-provided CNIPA acceptance notice: 202611294661.9, filed and accepted 2026-08-25, applicant South China University of Technology; inventors 黄梓航, 陈俊龙, 张通. Original title: 一种数据真值全自动生成方法及相关设备. The displayed English title is a translation. Listed as application accepted, not granted; the notice supplies no publication number. The source PDF is not included in this website repository or preview archive. Total list: nine entries.
+
+Patent formatting unified with publications: title, complete inventor line in source order, and identifiers/dates. The owner is bolded. Inventor order was checked against all eight Google Patents records and the 2026 acceptance notice. English names follow existing CV/paper spellings where available and standard transliteration otherwise; each name retains the Chinese source spelling in its HTML title attribute. News includes the August 2026 acceptance and February 2026 grant publication.
